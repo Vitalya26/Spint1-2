@@ -1,2 +1,2 @@
-BeautyWorld
+#BeautyWorld
 Малецкий Виталий Юрьевич
