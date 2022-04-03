@@ -50,6 +50,13 @@ a{
     margin-bottom: 120px;
 }
 
+.header__social{
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+}
+
 .logo{
     display: inline-block;
     font-size: 24px;
@@ -106,14 +113,17 @@ a{
     z-index: 2;
 }
 
+
 .social{
-    position: absolute;
-    right: 0;
-    top:50%;
-    transform: translateY(-50%);
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    margin-left: 24px;
+}
+
+.social_vertical{
+    flex-direction: column;
 }
 
 .social li:not(:last-child){
@@ -382,7 +392,7 @@ a{
     margin-right: 28px;
 }
 
-..price-list__service1 li{
+.price-list__service1 li{
     color: #333333;
     font-weight: 500;
     font-size: 14px;
@@ -553,6 +563,195 @@ a{
     line-height: 15px;
     text-transform: uppercase;
     color: #333333;
+}
+
+.container4{
+    margin-top: 100px;
+    margin-bottom: 102px;
+}
+
+.ourworks{
+    margin-left: 165px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #333333;
+    margin-bottom: 52px;
+}
+
+.photos{
+    display:flex;
+}
+
+.photos .photos__photo{
+    width: 338px;
+    height: 338px;
+    border-radius: 8px;
+}
+
+.photos__photo:not(:first-child){
+    margin-left: 29px;
+    width: 338px;
+    height: 338px;
+}
+
+.container5{
+    width: 1110px;
+    height: 125px;
+    margin-left: 144px;
+    margin-bottom: 100px;
+}
+
+.brands-title{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 920px;
+    height: 65px;
+    margin: 0 95px;
+}
+
+.brands__photo1{
+    width: 159px;
+    height: 65px;
+    padding: 0 33px;
+}
+
+.brands__photo2{
+    width: 160px;
+    height: 65px;
+    padding: 0 20px;
+}
+
+.brands__photo3{
+    width: 160px;
+    height: 40px;
+    padding: 0 26px;
+}
+
+.brands__photo4{
+    width: 160px;
+    height: 60px;
+    padding: 0 23px;
+}
+
+.brands__photo5{
+    width: 160px;
+    height: 36px;
+    padding: 0 12.5px;
+}
+
+.container6{
+    width: 1015px;
+    height: 406px;
+    margin: 40px 260px 40px 165px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F6F7;
+}
+
+.contacts{
+    width: 363px;
+    height: 275px;
+    margin-bottom: 93px;
+    margin-top: 38px;
+}
+
+.contacts-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color:#333;
+    margin-bottom: 32px;
+}
+
+.adress,
+.telnumber{
+    font-weight: 400;
+    font-size: 16px;
+    color:#333;
+    margin-bottom: 20px;
+}
+
+.link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #278AFF;
+    text-decoration-line: underline;
+    margin-bottom: 32px;
+}
+
+.form{
+    width: 445px;
+    height: 406px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 375px;
+    height: 326px;
+    align-self: center;
+    background-color: #FFFFFF;
+}
+
+.box__title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 14px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.box__description{
+    width: 374px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    font-family: 'Montserrat';
+    font-style: normal;
+    margin-bottom: 35px;
+}
+
+.input{
+    width: 375px;
+    height: 176px;
+    margin-bottom: 16px;
+}
+
+input{
+    border-radius: 4px;
+    width: 375px;
+    height: 44px;
+    margin-bottom: 20px;
+    border: 1px solid #D8D8D8;
+}
+
+.policy{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.policy a{
+    color:#278AFF;
+    text-decoration: underline;
 }
 
 .navigation-foot a{
