@@ -28,6 +28,15 @@
         margin-right: 0;
         margin-bottom: 15px;
     }
+
+    .main .container{
+        flex-direction: column;
+    }
+
+    .about__info{
+        flex-direction: column;
+    }
+
 } 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width: 480px) { 
